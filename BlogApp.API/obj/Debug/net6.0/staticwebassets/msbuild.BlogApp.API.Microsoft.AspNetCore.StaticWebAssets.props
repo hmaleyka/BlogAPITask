@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlogApp.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlogApp.API</BasePath>
+      <RelativePath>Upload/Category/14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp))">
       <SourceType>Package</SourceType>
       <SourceId>BlogApp.API</SourceId>
@@ -31,6 +47,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlogApp.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlogApp.API</BasePath>
+      <RelativePath>Upload/Category/66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Category\82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp))">
       <SourceType>Package</SourceType>

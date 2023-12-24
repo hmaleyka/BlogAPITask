@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XCUXhxePR6NUaqHn3PcENlTyesN9VoQqBSnKDv8JSfU=",
+  "Hash": "UE6+A2fRZ0wNVA/Mn1ifRp/RvElED5HZEYlenzAFhX0=",
   "Source": "BlogApp.API",
   "BasePath": "_content/BlogApp.API",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\Upload\\Category\\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
+      "SourceId": "BlogApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\",
+      "BasePath": "_content/BlogApp.API",
+      "RelativePath": "Upload/Category/14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Category\\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg"
+    },
     {
       "Identity": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\Upload\\Category\\4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp",
       "SourceId": "BlogApp.API",
@@ -49,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\Upload\\Category\\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg",
+      "SourceId": "BlogApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\",
+      "BasePath": "_content/BlogApp.API",
+      "RelativePath": "Upload/Category/66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Category\\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg"
     },
     {
       "Identity": "C:\\Users\\owner\\source\\repos\\BlogApp.Task\\BlogApp.API\\wwwroot\\Upload\\Category\\82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp",

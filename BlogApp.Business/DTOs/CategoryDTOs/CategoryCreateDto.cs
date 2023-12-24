@@ -28,7 +28,7 @@ namespace BlogApp.Business.DTOs.CategoryDTOs
                 .MaximumLength(50).WithMessage("Name cannot exceed 50 characters.");
             RuleFor(c => c.Logo)
                 .NotNull()
-                .WithMessage("Tt should not be empty");
+                .WithMessage("It shouldn't be empty");
                 
         }
     }

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BlogApp.Business.DTOs.CategoryDTOs
 {
-    public class CategoryListItemDto
+    public record CategoryListItemDto
     {
-        public int CategoryId { get; set; }
-        public Category category { get; set; }  
+        public int Id { get; set; }
+        //public Category category { get; set; }  
         public Task<IQueryable<Category>> categories { get; set; }
     }
 }
