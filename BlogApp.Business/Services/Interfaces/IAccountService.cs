@@ -11,6 +11,6 @@ namespace BlogApp.Business.Services.Interfaces
     public  interface IAccountService
     {
         Task Register(AccountCreateDto accountdto);
-        void Login(AccountLoginDto logindto);
-    }
+		Task<TokenResponseDto> Login(AccountLoginDto logindto);
+	}
 }

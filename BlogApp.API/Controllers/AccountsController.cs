@@ -21,6 +21,12 @@ namespace BlogApp.API.Controllers
             await _service.Register(accountDto);
             return Ok(new { Message = "User registered successfully" });
         }
-    
-    }
+		[HttpPost("[action]")]
+		public async Task<IActionResult> Login([FromForm] AccountLoginDto logindto)
+		{
+			var result = await _service.Login(logindto);
+			return Ok(result);
+		}
+
+	}
 }

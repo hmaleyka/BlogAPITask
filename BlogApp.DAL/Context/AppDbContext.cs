@@ -26,5 +26,8 @@ namespace BlogApp.DAL.Context
         }
 
         public DbSet<Category > categories { get; set; }
+        public DbSet<Blog> blogs { get; set; }
+        public DbSet<BlogCategory> blogsCategory { get; set; }
+
     }
 }

@@ -12,5 +12,6 @@ namespace BlogApp.Core.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public bool IsRemained { get; set; }
+        public IEnumerable<Blog> blogs { get; set; }
     }
 }

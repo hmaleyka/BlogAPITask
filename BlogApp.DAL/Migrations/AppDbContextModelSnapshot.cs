@@ -98,6 +98,72 @@ namespace BlogApp.DAL.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("BlogApp.Core.Entities.Blog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CoverImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 1, 10, 16, 24, 25, 485, DateTimeKind.Utc).AddTicks(4938));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(73)
+                        .HasColumnType("nvarchar(73)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("blogs");
+                });
+
+            modelBuilder.Entity("BlogApp.Core.Entities.BlogCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("blogsCategory");
+                });
+
             modelBuilder.Entity("BlogApp.Core.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -256,6 +322,36 @@ namespace BlogApp.DAL.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("BlogApp.Core.Entities.Blog", b =>
+                {
+                    b.HasOne("BlogApp.Core.Entities.AppUser", "AppUser")
+                        .WithMany("blogs")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("BlogApp.Core.Entities.BlogCategory", b =>
+                {
+                    b.HasOne("BlogApp.Core.Entities.Blog", "blog")
+                        .WithMany("blogCategories")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BlogApp.Core.Entities.Category", "category")
+                        .WithMany("blogCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("blog");
+
+                    b.Navigation("category");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -305,6 +401,21 @@ namespace BlogApp.DAL.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BlogApp.Core.Entities.AppUser", b =>
+                {
+                    b.Navigation("blogs");
+                });
+
+            modelBuilder.Entity("BlogApp.Core.Entities.Blog", b =>
+                {
+                    b.Navigation("blogCategories");
+                });
+
+            modelBuilder.Entity("BlogApp.Core.Entities.Category", b =>
+                {
+                    b.Navigation("blogCategories");
                 });
 #pragma warning restore 612, 618
         }

@@ -21,3 +21,15 @@ C:\Users\II novbe\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core
 C:\Users\II novbe\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\refint\BlogApp.Core.dll
 C:\Users\II novbe\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.pdb
 C:\Users\II novbe\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\ref\BlogApp.Core.dll
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\bin\Debug\net6.0\BlogApp.Core.deps.json
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\bin\Debug\net6.0\BlogApp.Core.dll
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\bin\Debug\net6.0\BlogApp.Core.pdb
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.AssemblyInfo.cs
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.dll
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\refint\BlogApp.Core.dll
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\BlogApp.Core.pdb
+C:\Users\owner\Desktop\BlogAPITask\BlogApp.Core\obj\Debug\net6.0\ref\BlogApp.Core.dll

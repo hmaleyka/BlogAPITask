@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3zy1teKNBBTCRY1oUwnlpDOZsl1eLn0kFEnNLHg28SU=",
+  "Hash": "V2sXtgL8kq8OT+otsKvZHQvgCkYgRSsOsdQJoKjoNmk=",
   "Source": "BlogApp.API",
   "BasePath": "_content/BlogApp.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlogApp.API\\wwwroot",
       "Source": "BlogApp.API",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\14347311-9437-4757-bbc8-04abb3203defbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\4e17d7a6-5a5b-4eff-924b-7fe206ac7c06the-portal-ocean-pictures-tamarama.webp"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\64193f3c-0427-41c0-b5e5-d7011a35ad63beautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\66bf3d62-b068-4683-9283-40d28663653bBest-of-2016-Nasim-Mansurov-20.jpg"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Category\\82fef232-c811-487b-827b-5e196742efaethe-portal-ocean-pictures-tamarama.webp"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\b5100ee3-f2ba-4746-b85e-a4879ee3035bbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
+      "Identity": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\Upload\\Category\\b5100ee3-f2ba-4746-b85e-a4879ee3035bbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "SourceId": "BlogApp.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\wwwroot\\",
       "BasePath": "_content/BlogApp.API",
       "RelativePath": "Upload/Category/b5100ee3-f2ba-4746-b85e-a4879ee3035bbeautiful-amazing-pictures-ce8zns6vqeh8q3gh.jpg",
       "AssetKind": "All",

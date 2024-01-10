@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj": {}
+    "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj": {
+    "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj",
         "projectName": "BlogApp.API",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.API\\obj\\",
+        "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\BlogApp.API.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj": {
-                "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj"
+              "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj": {
+                "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -78,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj": {
+    "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj",
         "projectName": "BlogApp.Business",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Business\\obj\\",
+        "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\BlogApp.Business.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj"
+              "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj"
               }
             }
           }
@@ -126,6 +130,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.0, )"
@@ -155,24 +167,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj": {
+    "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj",
         "projectName": "BlogApp.Core",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\obj\\",
+        "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -220,24 +232,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj": {
+    "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj",
         "projectName": "BlogApp.DAL",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.DAL\\obj\\",
+        "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\BlogApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -252,8 +264,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj": {
-                "projectPath": "C:\\Users\\II novbe\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj"
+              "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj": {
+                "projectPath": "C:\\Users\\owner\\Desktop\\BlogAPITask\\BlogApp.Core\\BlogApp.Core.csproj"
               }
             }
           }
@@ -303,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,5 +11,6 @@ namespace BlogApp.Core.Entities
     {
         public string Name { get; set; }
         public string LogoUrl { get; set; }
+        public IEnumerable<BlogCategory> blogCategories { get; set; }
     }
 }
