@@ -70,7 +70,7 @@ namespace BlogApp.Business.Services.Implementations
 		public async Task<ICollection<BlogListItemDto>> GetAllAsync()
 		{
 		    var dto = new List<BlogListItemDto>();
-			string[] includes = { "AppUser", "BlogCategories", "BlogCategory.Category" };
+			string[] includes = { "AppUser","blogCategories" ,  "BlogCategory.category" };
 			var blogs = await _repo.GetAllAsync(includes: includes);
 			var categories = new List<Category>();
 			foreach (var item in blogs)
@@ -80,7 +80,7 @@ namespace BlogApp.Business.Services.Implementations
 				{
 					categories.Add(cat.category);
 				}
-				var dtoItem = _mapper.Map<BlogListItemDto>(blogs);
+				var dtoItem = _mapper.Map<BlogListItemDto>(item);
 				dtoItem.Categories = _mapper.Map<IEnumerable<CategoryListItemDto>>(categories);
 				dtoItem.User = _mapper.Map<AuthorDto>(item.AppUser);
 				dto.Add(dtoItem);

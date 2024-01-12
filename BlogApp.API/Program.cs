@@ -16,6 +16,9 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using BlogApp.Business.Profiles;
+using Microsoft.AspNetCore.Diagnostics;
+using static System.Net.Mime.MediaTypeNames;
+using BlogApp.API.Utilis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -114,6 +117,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseException();
 
 app.UseAuthentication();
 app.UseAuthorization();
