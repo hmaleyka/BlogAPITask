@@ -11,6 +11,7 @@ namespace BlogApp.Business.Services.Interfaces
 	{
 		Task<ICollection<BlogListItemDto>> GetAllAsync();
 		Task<bool> CreateAsync(BlogCreateDto blogDto);
+		Task<bool> UpdateAsync (int id, BlogUpdateDto blogUpdateDto);
 		Task<BlogDetailDto> GetByIdAsync(int id);
 		Task Delete(int id);
 	}

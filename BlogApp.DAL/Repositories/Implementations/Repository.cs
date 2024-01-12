@@ -8,6 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BlogApp.DAL.Repositories.Implementations
 {
@@ -49,9 +50,18 @@ namespace BlogApp.DAL.Repositories.Implementations
             return query;
         }
 
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id, params string[] includes)
         {
-            return await _table.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+            IQueryable<TEntity> query = Table.Where(c=>c.Id==id && c.IsDeleted==false);
+            if (includes is not null && query.Count()>0)
+            {
+                for (int i = 0; i < includes.Length; i++)
+                {
+                    query = query.Include(includes[i]);
+                }
+            }
+            var entity = await query.FirstOrDefaultAsync(c=>c.Id==id);
+            return entity;
         }
         public async Task Create(TEntity entity)
         {

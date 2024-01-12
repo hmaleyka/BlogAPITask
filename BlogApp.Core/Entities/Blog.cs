@@ -12,6 +12,7 @@ namespace BlogApp.Core.Entities
 		public string Title { get; set; }
         public string Description { get; set; }
         public string CoverImage  { get; set; }
+        public int ViewerCount { get; set; }
         public string AppUserId { get; set; }
         public AppUser AppUser  { get; set; }
         public DateTime CreateTime { get; set; }

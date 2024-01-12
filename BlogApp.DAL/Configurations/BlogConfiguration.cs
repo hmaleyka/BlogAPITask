@@ -23,8 +23,10 @@ namespace BlogApp.DAL.Configurations
 				.HasForeignKey(b => b.AppUserId);
 
 			builder.Property(b => b.CreateTime)
-				.HasDefaultValue(DateTime.UtcNow);
-				
+				.HasDefaultValueSql("Getutcdate()");
+			builder.Property(b => b.ViewerCount)
+				.HasDefaultValue(0);
 		}
+
 	}
 }

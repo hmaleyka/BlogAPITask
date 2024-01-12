@@ -16,7 +16,7 @@ namespace BlogApp.DAL.Repositories.Interfaces
             Expression<Func<TEntity, object>>? OrderByExpression = null,
             bool isDescending = false
             , params string[] includes);
-        Task<TEntity> GetByIdAsync(int id);
+        Task<TEntity> GetByIdAsync(int id, params string[] includes);
         Task Create(TEntity entity);
         void Update(TEntity entity);
 

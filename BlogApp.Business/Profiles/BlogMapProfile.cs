@@ -14,8 +14,8 @@ namespace BlogApp.Business.Profiles
         public BlogMapProfile()
         {
             CreateMap<BlogCreateDto, Blog>();
-            CreateMap<Blog, BlogListItemDto>();
             CreateMap<Blog, BlogListItemDto>().ReverseMap();
+            CreateMap<Blog, BlogDetailDto>();
 
         }
     }
